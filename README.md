@@ -127,7 +127,3 @@ python3 compartment-hierarchy-statements.py
 - Find compartments with large numbers of policy statements
 - Compare local policy counts versus subtree totals
 - Support governance or cleanup efforts before compartment reorganization
-
-## License
-
-Add a license file if you plan to publish this repository publicly.
