@@ -128,21 +128,6 @@ python3 compartment-hierarchy-statements.py
 - Compare local policy counts versus subtree totals
 - Support governance or cleanup efforts before compartment reorganization
 
-## Limitations
-
-- These scripts do not currently accept command-line arguments.
-- They assume the default OCI SDK config path and profile.
-- Output is plain text only.
-- No pagination or filtering options are exposed beyond what is hard-coded in the scripts.
-
-## Possible Enhancements
-
-- Add CSV or JSON output
-- Add support for selecting an OCI config profile
-- Add tenancy, compartment, or name filters
-- Sort output by policy count or total statements
-- Add summary totals across the full tenancy
-
 ## License
 
 Add a license file if you plan to publish this repository publicly.
