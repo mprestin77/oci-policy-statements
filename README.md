@@ -1,6 +1,6 @@
 # OCI Policy Statements Utilities
 
-Small Python scripts for reporting Oracle Cloud Infrastructure (OCI) IAM policy counts and policy statement totals across a tenancy and its compartment hierarchy.
+Small Python scripts for reporting Oracle Cloud Infrastructure (OCI) IAM policy statement counts across a tenancy and its compartment hierarchy.
 
 ## What This Repository Contains
 
@@ -56,6 +56,8 @@ If you need a non-default profile or config path, update the scripts accordingly
 ## Scripts
 
 ### `policy-statements.py`
+
+This script does not calculate the number of IAM policies. It calculates the number of statements in each policy.
 
 This script:
 
